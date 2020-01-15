@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:id="@+id/navigation_facebook" android:icon="@drawable/ic_facebook" android:title=""/>
+    <item android:id="@+id/navigation_twitter" android:icon="@drawable/ic_twitter" android:title=""/>
+    <item android:id="@+id/navigation_instagram" android:icon="@drawable/ic_instagram" android:title=""/>
+    <item android:id="@+id/navigation_youtube" android:icon="@drawable/ic_youtube" android:title=""/>
+    <item android:id="@+id/navigation_contact" android:icon="@drawable/ic_contact" android:title=""/>
+</menu>

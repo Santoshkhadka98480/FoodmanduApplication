@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodmandu"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:background="#B7D2CCD3"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="370dp"
+        android:orientation="vertical"
+        android:layout_height="250dp">
+
+        <TextView
+            android:text="WELCOME!"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:text="Where should we deliver order?"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="MAP LOCATION(TAP TO CHANGE)"
+                android:textColor="#FF000000"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Gyaneshwor Marg, Kathmandu 44600,...."
+                android:textColor="#FF000000"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnContinue"
+                android:text="CONTINUE"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_round"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="I'll decide later"
+                android:textColor="#FF000000"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

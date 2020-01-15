@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+      <androidx.viewpager.widget.ViewPager
+          android:layout_marginBottom="20dp"
+          android:id="@+id/vpSliderImage"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"/>
+      <TextView
+          android:layout_marginBottom="20dp"
+          android:text="Categories"
+          android:layout_marginLeft="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textSize="20sp"/>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rvCategories"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:text="Super 7"
+          android:layout_marginLeft="20sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textSize="20sp"/>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rvSuper7"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="-20dp" />
+
+       <LinearLayout
+           android:background="#FF000000"
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+             <TextView
+                 android:layout_marginTop="5dp"
+                 android:text="IN THE SPOTLIGHT"
+                 android:layout_marginLeft="20sp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textStyle="bold"
+                 android:textColor="#FFF"
+                 android:textSize="20sp"/>
+             <TextView
+                 android:text="Chef's speed mention"
+                 android:layout_marginLeft="20sp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textColor="#FFF"
+                 android:textSize="12dp"/>
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/rvBakeries"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="Local Flavours"
+                android:layout_marginLeft="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFlavours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+
+</ScrollView>

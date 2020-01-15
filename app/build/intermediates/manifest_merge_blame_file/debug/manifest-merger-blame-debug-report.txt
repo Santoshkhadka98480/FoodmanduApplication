@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodmandu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:7:5-80
+13-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:10:5-35:19
+17        android:allowBackup="true"
+17-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:13:9-41
+22        android:requestLegacyExternalStorage="true"
+22-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:14:9-52
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:17:9-40
+27        android:usesCleartextTraffic="true" >
+27-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:18:9-44
+28        <activity android:name="com.example.foodmandu.WelcomeActivity" />
+28-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:19:9-62
+28-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:19:19-50
+29        <activity android:name="com.example.foodmandu.SplashActivity" >
+29-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:20:9-26:20
+29-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:20:19-49
+30            <intent-filter>
+30-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:22:17-69
+31-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:24:17-77
+33-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.example.foodmandu.RegisterActivity" />
+36-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:27:9-54
+36-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:27:19-51
+37        <activity android:name="com.example.foodmandu.LoginActivity" >
+37-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:28:9-30:20
+37-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:28:19-48
+38        </activity>
+39        <activity
+39-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:31:9-34:68
+40            android:name="com.example.foodmandu.MainActivity"
+40-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:32:13-41
+41            android:label="@string/app_name"
+41-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:33:13-45
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->/home/dell/AndroidStudioProjects/FoodMandu/app/src/main/AndroidManifest.xml:34:13-56
+43
+44        <provider
+44-->[com.squareup.picasso:picasso:2.71828] /home/dell/.gradle/caches/transforms-2/files-2.1/2e4610b13416ea1fb8354e3048f0e89a/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+45            android:name="com.squareup.picasso.PicassoProvider"
+45-->[com.squareup.picasso:picasso:2.71828] /home/dell/.gradle/caches/transforms-2/files-2.1/2e4610b13416ea1fb8354e3048f0e89a/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+46            android:authorities="com.example.foodmandu.com.squareup.picasso"
+46-->[com.squareup.picasso:picasso:2.71828] /home/dell/.gradle/caches/transforms-2/files-2.1/2e4610b13416ea1fb8354e3048f0e89a/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+47            android:exported="false" />
+47-->[com.squareup.picasso:picasso:2.71828] /home/dell/.gradle/caches/transforms-2/files-2.1/2e4610b13416ea1fb8354e3048f0e89a/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/55580b0ab45b69249933074462ab11c2/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/55580b0ab45b69249933074462ab11c2/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+50            android:authorities="com.example.foodmandu.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/55580b0ab45b69249933074462ab11c2/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/55580b0ab45b69249933074462ab11c2/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/dell/.gradle/caches/transforms-2/files-2.1/55580b0ab45b69249933074462ab11c2/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>
